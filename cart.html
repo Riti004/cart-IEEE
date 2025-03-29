@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">IEEE Merchandise</a>
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <div class="cart-container">
+        <h2>Your Shopping Cart</h2>
+
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="products/sticker-1.png" alt="Sticker">
+                <div class="item-details">
+                    <h3>IEEE Sticker</h3>
+                    <p>Price: $15.99</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="text" value="1">
+                        <button class="increase">+</button>
+                    </div>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="products/tshirt 1.jpg" alt="T-shirt">
+                <div class="item-details">
+                    <h3>IEEE T-shirt</h3>
+                    <p>Price: $25.99</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="text" value="1">
+                        <button class="increase">+</button>
+                    </div>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total: $41.98</h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
